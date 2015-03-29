@@ -46,7 +46,7 @@ $elf['footer'] =
 <<<EOD
  <footer>
 <div class="container">
-<span class='sitefooter'> <a href='https://github.com/edtau/elf'>ELF på github</a> | <a href='http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance'>Unicorn</a></span>
+<span class='sitefooter'> <a href='https://github.com/edtau/Elf.git'>ELF på github</a> | <a href='http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance'>Unicorn</a></span>
 <a href="http://www.freepik.com/free-photos-vectors/logo">Logo vector designed by Freepik</a>
 </div>
 </footer>
