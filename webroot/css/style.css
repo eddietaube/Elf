@@ -1,0 +1,36 @@
+#nav {
+    margin: 13px 0 0 0;
+}
+ 
+#nav ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+    margin-bottom: 130px;
+}
+ 
+#nav a {
+    text-decoration: none;
+ 
+}
+ 
+#nav a:hover {
+    text-decoration: underline;
+}
+
+header{
+ 
+ 
+	margin-bottom:20px;
+}
+ 
+body {
+    
+   padding-bottom:60px;   /* Height of the footer */
+}
+footer{
+	 
+}
+.sitelogo{
+	 float:left;
+	width:150px;
+}
