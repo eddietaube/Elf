@@ -1,9 +1,9 @@
-Anax-base
+Elf-base
 ==================
  
 A boilerplate for smaller websites or webbapplications using PHP.
  
-Built by Mikael Roos
+Built by Mikael Roos modified by Eddie Taube
 License 
 ------------------
  
