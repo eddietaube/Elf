@@ -1,0 +1,22 @@
+private long compute(int value)
+{
+	if(value < 0)
+	{
+		throw new execption()
+	}
+	else if (value >= 0)
+	{
+		for(int i = 0; memory.size(); i++)
+		{
+			if value == memory.get(i)
+			{
+				return result;
+			}
+			else if(value != memory.get(i))
+			{
+
+			}
+		}
+	}
+
+}

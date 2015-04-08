@@ -1,9 +1,7 @@
 <?php 
-  
-// Do it and store it all in variables in the Anax container.
+   
 $elf['title'] = "Example";
  
-
  
  
 $elf['main'] = 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Bootstrapping functions, essential and needed for Anax to work together with some common helpers. 
+ * Bootstrapping functions, essential and needed for Elf to work together with some common helpers. 
  *
  */
  

@@ -1,14 +1,8 @@
 <?php 
-/**
- * This is a Anax pagecontroller.
- *
- */
-// Include the essential config-file which also creates the $anax variable with its defaults.
 include(__DIR__.'/config.php'); 
  
- 
-// Do it and store it all in variables in the Anax container.
-$elf['title'] = "Home";
+  
+$elf['title'] = "Hello World";
 $elf['header'] = "<img class='sitelogo' src='img/elf.png' alt='elf Logo'/>".CNavigation::GenerateMenu($menu);
 $elf['main'] = "";
 $elf['header'] .= 
@@ -22,8 +16,7 @@ $elf['header'] .=
 EOD;
 
 
-
-
+ 
  if(isset($_GET["p"])){
  	$page = $_GET["p"];
 	
@@ -40,9 +33,10 @@ EOD;
  }else {
  	include("example.php");
  }
- 
+  
  
 $elf['footer'] = 
+
 <<<EOD
  <footer>
 <div class="container">
@@ -52,6 +46,5 @@ $elf['footer'] =
 </footer>
 EOD;
  
- 
-// Finally, leave it all to the rendering phase of Anax.
+  
 include(ELF_THEME_PATH);

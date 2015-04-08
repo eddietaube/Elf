@@ -1,6 +1,6 @@
 <?php
 /**
- * Config-file for Anax. Change settings here to affect installation.
+ * Config-file for Elf. Change settings here to affect installation.
  *
  */
  
@@ -14,7 +14,7 @@ ini_set('output_buffering', 0);   // Do not buffer outputs, write directly
  
  
 /**
- * Define Anax paths.
+ * Define ELF paths.
  *
  */
 define('ELF_INSTALL_PATH', __DIR__ . '/..');
@@ -80,5 +80,8 @@ $elf['javascript_include'] = array();
 $elf['google_analytics'] = 'UA-22093351-1'; // Set to null to di	sable google analytics
 
 $menu = array(
-  'example'  => array('text'=>'Example',  'url'=>'index.php?example'),
+  'me'  => array('text'=>'Me',  'url'=>'index.php?p=me'),
+  'report'  => array('text'=>'Redovisning',  'url'=>'index.php?p=report'),
+  'dice' => array('text'=>'Kasta tärning', 'url'=>'index.php?p=dice'),
+   'source' => array('text'=>'Källkod', 'url'=>'index.php?p=source'),
 );
